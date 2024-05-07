@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "goalachievementapp2",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authgoalachievementapp2",
+      "Outputs.UserPoolId"
+    ]
+  },
+  "AuthModeLastUpdated": "2024-04-30T12:58:05.606Z"
+}
